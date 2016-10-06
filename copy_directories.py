@@ -1,3 +1,8 @@
+########################################
+#This code is used to copy src directory contents to destination directory.
+#usage ex :- copy_directories.py a/* b
+#a is the source directory, b is the destination directory.
+#######################################
 #!/usr/bin/python
 import shutil, sys
 
