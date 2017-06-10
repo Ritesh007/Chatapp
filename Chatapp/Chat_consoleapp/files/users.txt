@@ -3,3 +3,23 @@
 ---> Chat ended @ 2017-06-10 17:16:33.679338
   participant1 -   participant2 -  ---> Chat started @ 2017-06-10 17:17:04.696779
 ---> Chat ended @ 2017-06-10 17:17:06.585776
+  participant1 -   participant2 -  ---> Chat started @ 2017-06-10 17:23:29.750457
+  participant1 -   participant2 -  ---> Chat started @ 2017-06-10 17:23:48.917048
+  participant1 -   participant2 -  ---> Chat started @ 2017-06-10 17:24:56.997387
+  participant1 -   participant2 -  ---> Chat started @ 2017-06-10 17:26:13.450898
+  participant1 -   participant2 -  ---> Chat started @ 2017-06-10 17:26:35.283838
+  participant1 -   participant2 -  ---> Chat started @ 2017-06-10 17:27:44.085693
+  participant1 -   participant2 -  ---> Chat started @ 2017-06-10 17:32:06.471424
+  participant1 -   participant2 -  ---> Chat started @ 2017-06-10 17:33:31.891300
+  participant1 -   participant2 -  ---> Chat started @ 2017-06-10 17:37:50.891319
+---> Chat ended @ 2017-06-10 17:37:52.578687
+  participant1 -   participant2 -  ---> Chat started @ 2017-06-10 17:40:52.350000
+  participant1 -   participant2 -  ---> Chat started @ 2017-06-10 17:41:08.412259
+  participant1 -   participant2 -  ---> Chat started @ 2017-06-10 17:41:21.446893
+---> Chat ended @ 2017-06-10 17:41:22.993390
+  participant1 -   participant2 -  ---> Chat started @ 2017-06-10 17:41:40.012008
+---> Chat ended @ 2017-06-10 17:41:41.468709
+  participant1 - rit  participant2 - ben ---> Chat started @ 2017-06-10 17:41:48.770353
+---> Chat ended @ 2017-06-10 17:41:53.026988
+  participant1 - end  participant2 - end ---> Chat started @ 2017-06-10 17:43:45.860799
+---> Chat ended @ 2017-06-10 17:43:46.948026

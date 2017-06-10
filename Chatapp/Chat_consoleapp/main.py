@@ -36,7 +36,8 @@ class ChatTexts():
              text=input("Enter you text here with your name -> ")
              AccessFiles.store_texts(text+"  "+str(datetime.now()))
              if text == "end":
-                 print("Thank you the chat has ended; Please restart the application again to start the chat")
+                 a=AccessFiles.thankyou_note("Thank you the chat has ended; Please restart the application again to start the chat")
+                 print(a)
                  AccessFiles.store_users_end()
                  self.texts=False
              elif text == "ch":

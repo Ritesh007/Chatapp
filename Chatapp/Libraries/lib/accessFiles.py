@@ -40,3 +40,5 @@ class AccessFiles(ChatWelcome):
         users_file.write("\n" + "---> Chat ended @ {0}".format(datetime.now()))
         users_file.close()
 
+#Lambda funtion to return a thank ou note
+    thankyou_note = lambda *args: str(args[0])
