@@ -1,0 +1,5 @@
+
+  participant1 -   participant2 -  ---> Chat started @ 2017-06-10 17:16:31.883620
+---> Chat ended @ 2017-06-10 17:16:33.679338
+  participant1 -   participant2 -  ---> Chat started @ 2017-06-10 17:17:04.696779
+---> Chat ended @ 2017-06-10 17:17:06.585776
