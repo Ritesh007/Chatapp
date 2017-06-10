@@ -2,7 +2,7 @@
 from _datetime import datetime
 
 
-# Welcome block Statements and logic go here
+# Welcome block Statements
 # Parent Class
 class ChatWelcome():
     def __init__(self):
@@ -15,6 +15,7 @@ class ChatWelcome():
         return name1,name2
 
 
+# Child Class to access and write to the files
 class AccessFiles(ChatWelcome):
 
 # Writes to chat.txt
@@ -33,12 +34,12 @@ class AccessFiles(ChatWelcome):
         users_file.close()
 
 
-# Writes to users.txt at Chat end
+# Writes to users.txt @Chat end
     @staticmethod
     def store_users_end():
         users_file = open("../../Chatapp/Chat_consoleapp/files/users.txt", "a")
         users_file.write("\n" + "---> Chat ended @ {0}".format(datetime.now()))
         users_file.close()
 
-#Lambda funtion to return a thank ou note
+#Lambda funtion to return a thank you note
     thankyou_note = lambda *args: str(args[0])

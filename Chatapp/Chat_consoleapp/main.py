@@ -23,12 +23,10 @@ from history import History
 from accessFiles import AccessFiles
 
 
-# Chat content go here
-# Child Class
+# Main Logic
 class ChatTexts():
     texts = True
 
-# Main Logic
     def enter_texts(self):
         accessFiles=AccessFiles()
         accessFiles.store_users()

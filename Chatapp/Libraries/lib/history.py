@@ -1,5 +1,6 @@
 
 class History():
+
 # Chat history
     @staticmethod
     def chat_history():
