@@ -1,0 +1,9 @@
+
+  participant1 - ben  participant2 - rit ---> Chat started @ 2017-06-10 01:58:15.676443
+---> Chat ended @ 2017-06-10 01:58:22.301143
+  participant1 - ben  participant2 - rit ---> Chat started @ 2017-06-10 02:01:59.995023
+---> Chat ended @ 2017-06-10 02:02:05.137137
+  participant1 - rit  participant2 - ben ---> Chat started @ 2017-06-10 02:03:55.153302
+---> Chat ended @ 2017-06-10 02:03:57.632491
+  participant1 - rit  participant2 - ben ---> Chat started @ 2017-06-10 02:17:29.012113
+---> Chat ended @ 2017-06-10 02:17:35.912063
