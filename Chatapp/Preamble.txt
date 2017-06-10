@@ -1,0 +1,10 @@
+
+Instructions on running the Chat_consoleapp -
+
+Run "Chatapp/Chat_consoleapp/main.py" to execute the code.
+This is a console chat app, so this doesn't consists of a GUI.
+Developed using Python3
+IDE - Pycharm
+
+Instructions on running the Chat_GUIapp -
+
