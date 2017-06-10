@@ -4,8 +4,8 @@
 #a is the source directory, b is the destination directory.
 #######################################
 #!/usr/bin/python
-import shutil, sys
-
+import shutil
+from sys import argv
 def main(src, dest):
     try:
         shutil.copy(src, dest)
@@ -15,7 +15,7 @@ def main(src, dest):
     # Any error saying that the directory doesn't exist
     except OSError as e:
         print('Directory not copied. Error: %s' % e)
-src= str(sys.argv[1])
-dest=str(sys.argv[2])
+src= str(argv[1])
+dest=str(argv[2])
 main(src, dest)
 
