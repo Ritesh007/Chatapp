@@ -34,3 +34,5 @@
 ---> Chat ended @ 2017-06-10 20:14:35.897302
   participant1 - rit  participant2 - ben ---> Chat started @ 2017-06-10 21:04:17.610227
 ---> Chat ended @ 2017-06-10 21:04:22.324337
+  participant1 - rit  participant2 - ben ---> Chat started @ 2017-06-11 16:24:49.299235
+---> Chat ended @ 2017-06-11 16:25:01.944930
