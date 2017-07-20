@@ -40,3 +40,15 @@
 ---> Chat ended @ 2017-06-11 17:02:20.441286
   participant1 -   participant2 -  ---> Chat started @ 2017-06-11 18:11:16.182194
 ---> Chat ended @ 2017-06-11 18:11:17.980107
+
+  participant1 - ritesh  participant2 - ben ---> Chat started @ 2017-07-19 22:32:24.577345
+---> Chat ended @ 2017-07-19 22:33:18.453292
+  participant1 - end  participant2 - end ---> Chat started @ 2017-07-19 22:34:40.727700
+---> Chat ended @ 2017-07-19 22:34:41.612226
+  participant1 - ben  participant2 - rit ---> Chat started @ 2017-07-19 22:42:46.097478
+---> Chat ended @ 2017-07-19 22:42:56.381841
+  participant1 - r  participant2 - t ---> Chat started @ 2017-07-19 22:50:48.251149
+  participant1 - rit  participant2 - ben ---> Chat started @ 2017-07-19 22:51:20.867957
+---> Chat ended @ 2017-07-19 22:51:27.463627
+  participant1 -   participant2 -  ---> Chat started @ 2017-07-19 22:51:53.162168
+---> Chat ended @ 2017-07-19 22:51:55.316923

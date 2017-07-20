@@ -19,8 +19,8 @@ Paths in PYTHONPATH should be separated with ;
 #sys.path.append("C:\\Users\\Kuchukulla\\PycharmProjects\\Python\\Chatapp\\Libraries\\lib")
 
 from _datetime import datetime
-from history import History
-from accessFiles import AccessFiles
+from Chatapp.utilities.accessFiles import AccessFiles
+from Chatapp.utilities import history
 
 
 # Main Logic
@@ -29,7 +29,7 @@ class ChatTexts():
 
     def enter_texts(self):
      try:
-        accessFiles=AccessFiles()
+        accessFiles = AccessFiles()
         accessFiles.store_users()
         while self.texts == True:
              text=input("Enter you text here with your name -> ")
@@ -40,17 +40,19 @@ class ChatTexts():
                  AccessFiles.store_users_end()
                  self.texts=False
              elif text == "ch":
-                 History.chat_history()
+                 history.History.chat_history()
              elif text == "users":
-                 History.users_history()
+                 history.History.users_history()
      except Exception as e:
         print("OOPS something went wrong!!..Check out the Exception ---> "+e)
      finally:
          print("FAILED OR PASSED the code has completed execution")
+
 
 # Main block
 def main():
     chat=ChatTexts()
     chat.enter_texts()
 
-main()
+if __name__ == "__main__":
+    main()
