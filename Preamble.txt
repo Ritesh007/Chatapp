@@ -6,5 +6,3 @@ This is a console chat app, so this doesn't consists of a GUI.
 Developed using Python 3.6.1
 IDE - Pycharm
 
-Instructions on running the Chat_GUIapp -
-

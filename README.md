@@ -1,9 +1,9 @@
 #####################################################
 # This repository consists Console Chat Application.
 # Written in Python3.
-#
 ######################################################
 
+######################################################
 Project Structure -
 Chatapp
    - __main__.py
@@ -20,3 +20,4 @@ Chatapp
             - __init__.py
             - accessFiles.py
             - history.py
+########################################################
