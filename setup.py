@@ -9,8 +9,10 @@ setup(
     version='1.0',
     packages = ['Chatapp','Chatapp.Test','Chatapp.utilities','Chatapp.files'],
     data_files = ['Chatapp/files/chat.txt','Chatapp/files/users.txt','__main__.py'],
+
     #metadata
-    author='Ritesh',
+    author='Ritesh Kumar',
     author_email='rithu.ritesh@gmail.com',
-    description='A simple chat app that can be used on linux or windows console if python is installed on it',
+    description='A simple chat app that can be used on linux or windows console if python is installed on it.',
+    license='Public Domain',
 )
