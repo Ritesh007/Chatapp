@@ -18,7 +18,7 @@ Paths in PYTHONPATH should be separated with ;
 #import sys
 #sys.path.append("C:\\Users\\Kuchukulla\\PycharmProjects\\Python\\Chatapp\\Libraries\\lib")
 
-from _datetime import datetime
+from datetime import datetime
 from Chatapp.utilities.accessFiles import AccessFiles
 from Chatapp.utilities import history
 
