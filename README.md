@@ -20,4 +20,6 @@ Chatapp
             - __init__.py
             - accessFiles.py
             - history.py
+   - .circleci
+         - config.yaml
 ########################################################
