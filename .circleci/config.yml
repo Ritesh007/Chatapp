@@ -8,7 +8,7 @@ jobs:
        - run: ls -ltr
        - run: cd Chatapp
        - run: ls -ltr
-       - run: cd Chatapp
-       - run: ls -ltr
+       - run: ls -ltr ~/project/Chatapp/
+       - run: ls -ltr ~/project/Chatapp/Chatapp
        - run: chmod 777 ~/project/Chatapp/Chatapp/Test/test_accessFiles.py
        - run: python ~/project/Chatapp/Chatapp/Test/test_accessFiles.py
