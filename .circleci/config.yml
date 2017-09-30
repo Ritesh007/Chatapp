@@ -5,4 +5,4 @@ jobs:
      steps:
        - checkout
        - run: python -m pip install datetime
-       - run: python -m unittest ~/project/Chatapp/Chatapp/Test/accessFiles_test.py
+       - run: python -m unittest /home/circleci/project/Chatapp/Chatapp/Test/accessFiles_test.py
