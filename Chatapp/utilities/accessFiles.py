@@ -1,6 +1,6 @@
 
 from datetime import datetime
-
+import os
 
 # Welcome block Statements
 # Parent Class
@@ -21,7 +21,9 @@ class AccessFiles(ChatWelcome):
 # Writes to chat.txt
     @staticmethod
     def store_texts(text) :
-        store_file=open("../Chatapp/Chatapp/files/chat.txt","a")
+        dir = os.path.dirname(__file__)
+        filename = os.path.join(dir, '..\\files\\chat.txt')
+        store_file=open(filename,"a")
         store_file.write(text+"\n")
         store_file.close()
 

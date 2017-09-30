@@ -3,24 +3,31 @@ Unit test case for accessFiles.py Library.
 """
 
 import unittest
-#from accessFiles import AccessFiles
+from Chatapp.utilities.accessFiles import AccessFiles
+import os
+
 
 # TODO write a successful testcase
 class AccessFilestest(unittest.TestCase):
-    pass
-    """"@staticmethod
-    def store_texts_test():
-        pass
+
+# every testcase functon name should start with test_
+
+    def test_storetexts(self):
         AccessFiles.store_texts("\n This is a test line ---> ignore this \n")
-        store_file=open("../Chatapp/Chat_consoleapp/files/chat.txt","r")
+        dir = os.path.dirname(__file__)
+        filename = os.path.join(dir, '..\\files\\chat.txt')
+        store_file = open(filename, "r")
         for i in store_file:
             if i == "This is a test line ---> ignore this":
-              assert i,"This is a test line ---> ignore this"
+              self.assertEqual(i,"This is a test line ---> ignore this")
+              store_file.close()
               break
             return False
+        store_file.close()
 
 
-def main():
-  AccessFilestest.store_texts_test()"""
+"""def main():
+  accessfilestest = AccessFilestest()
+  accessfilestest(runTest)
 
-#main()
+main()"""
