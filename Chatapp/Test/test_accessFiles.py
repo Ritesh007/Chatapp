@@ -8,7 +8,6 @@ from Chatapp.utilities.accessFiles import AccessFiles
 import os
 
 
-# TODO write a successful testcase
 class AccessFilestest(unittest.TestCase):
 
 # every testcase functon name should start with test_

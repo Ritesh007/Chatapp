@@ -9,4 +9,4 @@ jobs:
        - run: cd Chatapp
        - run: ls -ltr
        - run: ls -ltr ~/project/Chatapp/
-       - run: python ~/project/Chatapp/Test/test_accessFiles.py
+       - run: python -m unittest ~/project/Chatapp/Test/test_accessFiles.py
