@@ -1,6 +1,7 @@
 """
 Unit test case for accessFiles.py Library.
 """
+__project__ = 'Chatapp'
 
 import unittest
 from Chatapp.utilities.accessFiles import AccessFiles
@@ -29,8 +30,3 @@ class AccessFilestest(unittest.TestCase):
 # unittest.main() runs all the tests
 if __name__ == "__main__":
     unittest.main()
-"""def main():
-  accessfilestest = AccessFilestest()
-  accessfilestest(runTest)
-
-main()"""
