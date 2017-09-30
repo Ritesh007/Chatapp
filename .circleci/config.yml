@@ -9,4 +9,4 @@ jobs:
        - run: cd Chatapp
        - run: ls -ltr
        - run: ls -ltr ~/project/Chatapp/
-       - run: python -m unittest ~/project/Chatapp/Test/test_accessFiles.py
+       - run: echo "Project is now on the VM"
