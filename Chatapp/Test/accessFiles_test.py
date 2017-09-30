@@ -26,6 +26,9 @@ class AccessFilestest(unittest.TestCase):
         store_file.close()
 
 
+# unittest.main() runs all the tests
+if __name__ == "__main__":
+    unittest.main()
 """def main():
   accessfilestest = AccessFilestest()
   accessfilestest(runTest)
