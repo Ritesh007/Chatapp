@@ -3,7 +3,7 @@ deployment:
     branch: master
     commands:
       - sudo apt-get install curl
-      - ${Dockerhub_trigger}
+      - $doc
 test:
   override:
     - echo "done"
