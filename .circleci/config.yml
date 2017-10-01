@@ -1,10 +1,14 @@
 version: 2
+machine:
+  services:
+    - docker
+
 deployment:
-  dockerhub:
+  hub:
      branch: master
      commands:
        - $Dockerhub_trigger
-jobs:
+"""jobs:
   build:
      machine: true
      steps:
@@ -14,4 +18,5 @@ jobs:
        - run: cd Chatapp
        - run: ls -ltr
        - run: ls -ltr ~/project/Chatapp/
-       - run: echo "Project is now on the VM"
+       - run: echo \"Project is now on the VM\"
+       """
