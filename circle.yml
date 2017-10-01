@@ -2,7 +2,8 @@ deployment:
   dockerhub:
     branch: master
     commands:
-      - Dockerhub_trigger
+      - sudo yum install -y curl
+      - $Dockerhub_trigger
 
 test:
   override:
