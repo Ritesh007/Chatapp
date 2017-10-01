@@ -9,15 +9,3 @@ deployment:
      branch: master
      commands:
        - $Dockerhub_trigger
-"""jobs:
-  build:
-     machine: true
-     steps:
-       - checkout
-       - run: python -m pip install datetime
-       - run: ls -ltr
-       - run: cd Chatapp
-       - run: ls -ltr
-       - run: ls -ltr ~/project/Chatapp/
-       - run: echo \"Project is now on the VM\"
-       """
