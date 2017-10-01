@@ -6,5 +6,5 @@ jobs:
       branch: master
 
     steps:
-      - deploy:
-          command: $Dockerhub_trigger
+      -deploy:
+        command: $Dockerhub_trigger
