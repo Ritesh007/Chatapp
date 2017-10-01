@@ -1,4 +1,9 @@
 version: 2
+deployment:
+  dockerhub:
+     branch: master
+     commands:
+       - $Dockerhub_trigger
 jobs:
   build:
      machine: true
