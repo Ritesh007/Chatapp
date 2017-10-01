@@ -2,7 +2,7 @@ deployment:
   dockerhub:
     branch: master
     commands:
-      - sudo yum install -y curl
+      - sudo apt-get install curl
       - $Dockerhub_trigger
 
 test:
