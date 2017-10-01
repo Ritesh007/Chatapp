@@ -3,7 +3,7 @@ deployment:
     branch: master
     commands:
       - sudo apt-get install curl
-      - curl -X POST "http://registry.hub.docker.com/u/riteshreddy/chatapp/trigger/918ebf4a-fec6-4f69-874a-477a783e34de/?build=true" -H 'content-type:application/json'
+      - curl -X POST "https://registry.hub.docker.com/u/riteshreddy/chatapp/trigger/918ebf4a-fec6-4f69-874a-477a783e34de/?build=true" -H 'content-type:application/json'
 
 test:
   override:
