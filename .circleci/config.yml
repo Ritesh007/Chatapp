@@ -5,4 +5,5 @@ jobs:
     docker:
       branch: master
       steps:
-        -run: $Dockerhub_trigger
+        -run:
+          command: $Dockerhub_trigger
