@@ -1,11 +1,8 @@
 version: 2
 
-machine:
-  services:
-    - docker
-
-deployment:
-  hub:
-     branch: master
-     commands:
-       - $Dockerhub_trigger
+jobs:
+  build:
+    docker:
+      branch: master
+      steps:
+        -run: $Dockerhub_trigger
