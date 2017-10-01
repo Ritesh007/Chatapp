@@ -4,6 +4,7 @@ deployment:
     commands:
       - sudo apt-get install curl
       - $doc
+#to skip the test cases
 test:
   override:
     - echo "done"
